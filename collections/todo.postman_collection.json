@@ -1,7 +1,7 @@
 {
   "info": {
     "_postman_id": "ea42c550-734d-4ef2-9dba-460c949d2482",
-    "name": "todos",
+    "name": "todo",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "_exporter_id": "44247225",
     "_collection_link": "https://go.postman.co/collection/44247225-ea42c550-734d-4ef2-9dba-460c949d2482?source=collection_link"
@@ -30,6 +30,16 @@
     {
       "name": "list",
       "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTExNjI2NzQsInN1YiI6ImFuZ2Vsb0BlbWFpbC5jb20iLCJpYXQiOjE3OTExNjIzNzR9.GH6l-vXb0-ey7gQz7vOT6H71w7ROr5qxiFygWHb8uxM",
+              "type": "string"
+            }
+          ]
+        },
         "method": "GET",
         "header": [],
         "url": {
